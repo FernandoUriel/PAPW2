@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="/plugins/js/jquery-3.4.1.min.js"
+    ></script>
+    <link rel="stylesheet" href="/plugins/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/plugins/css/style.css" />
+    <link href="/plugins/css/all.css" rel="stylesheet" />
+    <script type="text/javascript" src="/plugins/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <link
+      rel="shortchut icon"
+      type="image/png"
+      href="/plugins/imgs/favicon.png"
+    />
+    <title>8 Bits</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="index.html"
+          ><img id="img-logo" src="/plugins/imgs/Logo.png" alt="8bits logo"
+        /></a>
+        <a href="index.html" class="navbar-brand nav-let">Home</a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle nav-let"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Videojuegos</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="newcate.html">Xbox</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="newcate.html">PS4</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="newcate.html">Nintendo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="newcate.html">PC</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle nav-let"
+              id="navbarDropdownMenuLink1"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Movíl</a
+            >
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink1"
+            >
+              <a class="dropdown-item" href="newcate.html">IOS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="newcate.html">Android</a>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="navbar-brand nav-let">ESports</a>
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="navbar-brand nav-let"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              ><i class="fas fa-user"></i> LogIn</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="register.html" class="navbar-brand nav-let">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="navbar-brand nav-let"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="navbar-brand nav-let"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="navbar-brand nav-let"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar Fin -->
+
+      <!-- Carrusel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" id="c-item-1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">First Slide</h2>
+              <p class="lead">This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" id="c-item-2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">Second Slide</h2>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" id="c-item-3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">Third Slide</h2>
+              <p class="lead">This is a description for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carrusel Fin -->
+
+      <!-- Modal LogIn -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend i-log">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fas fa-user i-log"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Usuario"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend i-log">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fas fa-key i-log"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Contraseña"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-Log">
+                LogIn
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal LogIn Fin -->
+
+      <!-- Noticias -->
+      <div class="container cont1">
+        <h3>Ultimas noticias</h3>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="/plugins/imgs/Noticias.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+                <a href=""><h5 class="m-t">categoria</h5></a>
+                <p class="card-text">
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="/plugins/imgs/Noticias.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+                <a href="#"><h5 class="m-t">categoria</h5></a>
+                <p class="card-text">
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="/plugins/imgs/Noticias.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+                <a href="#"><h5 class="m-t">categoria</h5></a>
+                <p class="card-text">
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="/plugins/imgs/Noticias.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+                <a href="#"><h5 class="m-t">categoria</h5></a>
+                <p class="card-text">
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Xbox</h3>
+        <hr />
+        <div class="media">
+          <img src="/plugins/imgs/Noticias.jpg" class="mr-3 img-c" alt="..." />
+          <div class="media-body">
+            <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+            <a href="#"><h5 class="m-t">categoria</h5></a>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+        <hr />
+        <div class="media">
+          <img src="/plugins/imgs/Noticias.jpg" class="mr-3 img-c" alt="..." />
+          <div class="media-body">
+            <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+            <a href="#"><h5 class="m-t">categoria</h5></a>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+        <hr />
+        <div class="media">
+          <img src="/plugins/imgs/Noticias.jpg" class="mr-3 img-c" alt="..." />
+          <div class="media-body">
+            <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+            <a href="#"><h5 class="m-t">categoria</h5></a>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+            vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+        <hr />
+        <h3>PS4</h3>
+        <hr />
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="/plugins/imgs/Noticias.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+              <a href="#"><h5 class="m-t">categoria</h5></a>
+              <p class="card-text">
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/plugins/imgs/Noticias.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+              <a href="#"><h5 class="m-t">categoria</h5></a>
+              <p class="card-text">
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/plugins/imgs/Noticias.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <a href="noticia.html"><h5 class="card-title">Titulo</h5></a>
+              <a href="#"><h5 class="m-t">categoria</h5></a>
+              <p class="card-text">
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticias Fin -->
+
+      <!-- Footer -->
+      <footer class="page-footer font-small pt-4" id="contactar">
+        <!-- Content -->
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <h5 class="text-center font-weight-bold text-uppercase mt-3 mb-4">
+              Contacto
+            </h5>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <p>
+                Oficina Central de Información y Documentación <br />
+                Teléfono: (51)-43-310445 Anexo 1014 <br />
+                E-mail: 8bit.outlook.com <br />
+              </p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3" />
+            <div class="col-md-3 mt-md-0 mb-3">
+              <p>
+                Para información técnica por favor contactar con <br />
+                Oficina de Tecnologías de Información y Comunicaciones <br />
+                Teléfono: (51)-43-310445 Anexo 1016 <br />
+                E-mail: 8bit.outlook.com <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3">
+          © 2020 Copyright: Fernando Uriel Reyes Gómez
+        </div>
+      </footer>
+      <!-- Footer Fin -->
+    </div>
+  </body>
+</html>

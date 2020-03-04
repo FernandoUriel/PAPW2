@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container1,
+.container3 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.container2 {
+  padding-top: 6em;
+}
+.container3 {
+  padding-left: 12em;
+  padding-right: 12em;
+}
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#img-logo {
+  width: 5em;
+  height: 3em;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdown-item {
+  color: greenyellow;
+}
+.dropdown-item:hover {
+  background-color: greenyellow;
+}
+.nav-let {
+  font-size: 1.7em;
+  color: greenyellow;
+  padding-left: 0.5em;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.nav-let:hover {
+  color: white;
+}
+/* Navbar Fin */
+
+/* Modal LogIn*/
+
+.modal {
+  font-family: "Chakra Petch", sans-serif;
+  opacity: 0.7;
+}
+.modal-header,
+.modal-footer,
+.modal-body {
+  background-color: black;
+}
+.modal-title {
+  color: greenyellow;
+}
+.btn-Log {
+  background-color: greenyellow;
+}
+.btn-Log:hover {
+  background-color: black;
+  border-color: greenyellow;
+  color: greenyellow;
+}
+.close {
+  color: greenyellow;
+}
+.close:hover {
+  color: white;
+}
+.i-log {
+  color: greenyellow;
+}
+/* Modal LogIn Fin */
+
+/* Carrusel */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#c-item-1 {
+  background-image: url("/plugins/imgs/C-Royale.jpg");
+}
+#c-item-2 {
+  background-image: url("/plugins/imgs/League.jpg");
+}
+#c-item-3 {
+  background-image: url("/plugins/imgs/smash-ultimate.png");
+}
+/* Carrusel Fin */
+
+/* Footer */
+.page-footer {
+  background-color: black;
+  color: greenyellow;
+}
+.footer-copyright {
+  background-color: greenyellow;
+  color: black;
+}
+/* Footer Fin */
+
+/* Section 01 */
+.c-card {
+  color: greenyellow;
+}
+
+.cont1 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.m-t {
+  color: greenyellow;
+}
+.img-c {
+  width: 12em;
+  height: 8em;
+  object-fit: cover;
+}
+/* Section 01 Fin */
+
+/* Registro */
+.btn-registrarse {
+  background-color: greenyellow;
+  color: black;
+}
+.btn-registrarse:hover {
+  background-color: white;
+  border-color: greenyellow;
+  color: black;
+}
+/* Registro */
+
+/* Noticias */
+.img-ava {
+  width: 9em;
+  height: 10em;
+}
+.img-new {
+  width: 1080px;
+  height: 720px;
+  object-fit: none;
+}
+.btn-l {
+  background-color: greenyellow;
+  color: black;
+  border-color: greenyellow;
+}
+.btn-l:hover {
+  background-color: white;
+  border-color: greenyellow;
+  color: black;
+}
+/* Noticias Fin */
+
+/* Publicar Noticia */
+
+.btn-pub {
+  background-color: greenyellow;
+  color: black;
+  margin-bottom: 3em;
+}
+.input-mysize {
+  margin-left: 1em;
+  width: 69em;
+  height: 30em;
+  align-content: center;
+  margin-bottom: 1em;
+}
+.fl-lbl {
+  padding-left: 10em;
+}
+/* Publicar Noticia Fin  */
+
+/* Editar Noticia */
+.img-en {
+  width: 9em;
+  height: 5em;
+  object-fit: cover;
+}
+/* Editar Noticia Fin */
